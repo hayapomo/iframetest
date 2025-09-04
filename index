@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5PWHZNJ8');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pm Inc. - デジタル開発運用支援</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+            background-color: #ffffff;
+        }
+        header img {
+            max-width: 250px;
+            height: auto;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #004080;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 30px auto 0;
+            max-width: 320px;
+        }
+        ul li {
+            margin: 12px 0;
+            padding: 8px 0;
+            font-size: 1.1rem;
+            font-weight: 500;
+            position: relative;
+            text-align: left;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #004080;
+            font-size: 0.8rem;
+        }
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            ul li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PWHZNJ8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header>
+        <img src="pm_Logo_symbol.png" alt="pm Inc. Logo">
+    </header>
+
+    <main>
+        <h1>pm Inc.</h1>
+        <p>アプリ・ゲーム・WEBサイト・会員システムの開発運用</p>
+        <p>デジタルマーケティング支援も行っています</p>
+
+        <ul>
+            <li>アプリ開発・運用</li>
+            <li>ゲーム開発・運用</li>
+            <li>WEBサイト制作・運用</li>
+            <li>会員システム開発・運用</li>
+            <li>デジタルマーケティング支援</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 pm Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
