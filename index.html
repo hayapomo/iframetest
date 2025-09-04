@@ -80,13 +80,37 @@
             font-size: 0.9rem;
         }
         @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            ul li {
-                font-size: 1rem;
-            }
+            h1 { font-size: 1.5rem; }
+            ul li { font-size: 1rem; }
         }
+
+        /* ここから: スライドをレスポンシブにするためのスタイル */
+        .slide-wrap {
+            width: 100%;
+            max-width: 960px;   /* PCでの上限幅 */
+            margin-top: 40px;
+        }
+        .slide-embed {
+            position: relative;
+            width: 100%;
+            /* 16:9 比率をキープ */
+            aspect-ratio: 16 / 9;
+            background: #000;
+        }
+        /* aspect-ratio 未対応ブラウザ用のフォールバック（任意） */
+        .slide-embed::before {
+            content: "";
+            display: block;
+            padding-top: 56.25%; /* 16:9 */
+        }
+        .slide-embed iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        /* ここまで */
     </style>
 </head>
 <body>
@@ -111,6 +135,19 @@
             <li>会員システム開発・運用</li>
             <li>デジタルマーケティング支援</li>
         </ul>
+
+        <!-- ここから: Google スライド埋め込み -->
+        <div class="slide-wrap">
+            <div class="slide-embed">
+                <iframe
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vRq7Zx1f-3TpY1RqFY0cE3IYee6FudvKeRh6Taerm3bGiRSReFw2zV1K7Vlt2gLeonjPtxZVFQGcbxo/pubembed?start=false&loop=false&delayms=3000"
+                    allowfullscreen
+                    mozallowfullscreen
+                    webkitallowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <!-- ここまで -->
     </main>
 
     <footer>
